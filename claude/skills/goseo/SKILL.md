@@ -22,7 +22,7 @@ Run the weekly SEO/AEO chain in the **explicitly identified** customer project a
 ## Phase 3 — Optimalisatie en vervolg
 
 7. Onno reads Aafke and Sjoerd → `onno-ready-to-publish.md` or proposed source diff, without publishing.
-8. Lola reads draft and verified sitemap → `lola-linkplan.md`.
+8. Lola reads the draft and a verified page inventory (sitemap, CMS, routes or crawl) → `lola-linkplan.md`. If no pages can be verified, record the gap instead of inventing links.
 9. Timo checks the real site when possible → `timo-techniekrapport.md`, separating search crawlers from training controls.
 10. Boris → `boris-outreachvoorstellen.md`, proposals only.
 11. Rinus → `rinus-nulmeting.md` and `rinus-vervolgplan.md`; 72 hours is a first check, never a visibility guarantee.

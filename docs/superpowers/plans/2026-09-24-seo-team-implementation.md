@@ -24,10 +24,10 @@
 
 **Interface:** Elke rol bevat trigger, vereiste invoer, werkwijze, overdracht/output en grenzen. Aafke hanteert antwoord-eerst zonder valse 40–60-woordenclaim; Timo onderscheidt zoekcrawlers van trainingscrawlers; Rinus belooft geen indexatie.
 
-- [ ] Schrijf vóór de rollen een toepassingsscenario zonder skill en noteer waar de grens gemist wordt.
-- [ ] Maak de twaalf rolbestanden met unieke verantwoordelijkheden.
-- [ ] Controleer met `find shared/roles -name '*.md' | wc -l` dat het er precies twaalf zijn en lees de drie risicorollen terug.
-- [ ] Commit de rollen apart.
+- [x] Schrijf vóór de rollen een toepassingsscenario zonder skill en noteer waar de grens gemist wordt.
+- [x] Maak de twaalf rolbestanden met unieke verantwoordelijkheden.
+- [x] Controleer met `find shared/roles -name '*.md' | wc -l` dat het er precies twaalf zijn en lees de drie risicorollen terug.
+- [x] Commit de rollen apart.
 
 ### Task 2: Native ingangen
 
@@ -35,12 +35,12 @@
 
 **Interface:** Skills lezen geïnstalleerde rollen uit `<project>/.seo-team/roles/`; Claude-wrappers verwijzen naar exact één rol. `goseo` schrijft concepten/audits in `<project>/output/seo/YYYY-Www/` en bewaakt fase-afhankelijkheden.
 
-- [ ] Leg de bestandsovergangen en handmatige stopgrenzen in beide `goseo`-skills vast.
-- [ ] Maak de twee algemene router-skills en beide projectinstructie-snippets.
-- [ ] Maak twaalf dunne Claude-subagent-wrappers met correcte rolverwijzing.
-- [ ] Valideer de vier skills met `quick_validate.py` en controleer alle rolverwijzingen.
-- [ ] Test een risicoscenario met de nieuwe skill-instructies; herstel afwijkingen.
-- [ ] Commit de native ingangen apart.
+- [x] Leg de bestandsovergangen en handmatige stopgrenzen in beide `goseo`-skills vast.
+- [x] Maak de twee algemene router-skills en beide projectinstructie-snippets.
+- [x] Maak twaalf dunne Claude-subagent-wrappers met correcte rolverwijzing.
+- [x] Valideer de vier skills met `quick_validate.py` en controleer alle rolverwijzingen.
+- [x] Test een risicoscenario met de nieuwe skill-instructies; herstel afwijkingen.
+- [x] Commit de native ingangen apart.
 
 ### Task 3: Zelfinstallerende README en publicatie
 
@@ -48,8 +48,8 @@
 
 **Interface:** De README bevat een direct kopieerbare installatievraag met GitHub-URL en exact doelproject, veilige kopieerlocaties, conflictregels, verificatie, gebruiksmomenten en de commando's voor beide tools.
 
-- [ ] Schrijf de installatie- en gebruiksinstructies met niet-destructieve conflictafhandeling.
-- [ ] Controleer alle paden, aantallen, frontmatter en een proefinstallatie in een tijdelijke doelmap.
-- [ ] Scan alle tracked inhoud én Gitgeschiedenis op herleidbare klantgegevens en geheimen.
+- [x] Schrijf de installatie- en gebruiksinstructies met niet-destructieve conflictafhandeling.
+- [x] Controleer alle paden, aantallen, frontmatter en een proefinstallatie in een tijdelijke doelmap.
+- [x] Scan alle tracked inhoud én Gitgeschiedenis op herleidbare klantgegevens en geheimen.
 - [ ] Commit de README, bevestig een schone werkboom en maak daarna pas de publieke GitHub-repo aan.
 - [ ] Lees GitHub-reponaam, URL en publieke zichtbaarheid onafhankelijk terug.

@@ -22,7 +22,7 @@ Run a weekly, reviewable SEO/AEO cycle for the **explicitly identified** custome
 ## Phase 3 — Optimalisatie en vervolg
 
 7. Onno reads Aafke and Sjoerd, writes `onno-ready-to-publish.md` or a proposed source diff, **not a deployment**.
-8. Lola reads the draft and verified sitemap, writes `lola-linkplan.md`.
+8. Lola reads the draft and a verified page inventory (sitemap, CMS, routes or crawl), writes `lola-linkplan.md`. If no pages can be verified, record the gap instead of inventing links.
 9. Timo inspects the actual site when available, writes `timo-techniekrapport.md`; distinguish search crawling from AI-training controls.
 10. Boris writes `boris-outreachvoorstellen.md`, without contacting anyone.
 11. Rinus writes `rinus-nulmeting.md` and `rinus-vervolgplan.md`; 72 hours is an initial checkpoint, not an indexation or AI Overview guarantee.

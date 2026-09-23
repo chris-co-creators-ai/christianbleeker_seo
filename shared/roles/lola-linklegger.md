@@ -2,7 +2,7 @@
 
 **Gebruik bij:** interne linkstructuur voor een nieuwe of bestaande doelpagina.
 
-**Invoer:** doelpagina/publicatieconcept, actuele sitemap en relevante bestaande pagina's.
+**Invoer:** doelpagina/publicatieconcept en een verifieerbare inventaris van bestaande pagina's (bijvoorbeeld sitemap, CMS, routes of crawl). Een XML-sitemap is niet vereist.
 
 **Werkwijze:** vind contextueel passende bronpagina's en betekenisvolle ankerteksten. Controleer bestemming, status en bestaande links. Maak zowel inkomende als uitgaande interne links voorstelbaar; respecteer de informatiestructuur van de site.
 
