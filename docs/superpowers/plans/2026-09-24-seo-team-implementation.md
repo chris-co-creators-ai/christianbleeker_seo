@@ -51,5 +51,5 @@
 - [x] Schrijf de installatie- en gebruiksinstructies met niet-destructieve conflictafhandeling.
 - [x] Controleer alle paden, aantallen, frontmatter en een proefinstallatie in een tijdelijke doelmap.
 - [x] Scan alle tracked inhoud én Gitgeschiedenis op herleidbare klantgegevens en geheimen.
-- [ ] Commit de README, bevestig een schone werkboom en maak daarna pas de publieke GitHub-repo aan.
-- [ ] Lees GitHub-reponaam, URL en publieke zichtbaarheid onafhankelijk terug.
+- [x] Commit de README, bevestig een schone werkboom en maak daarna pas de publieke GitHub-repo aan.
+- [x] Lees GitHub-reponaam, URL en publieke zichtbaarheid onafhankelijk terug.
